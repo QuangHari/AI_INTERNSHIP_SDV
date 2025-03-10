@@ -1,0 +1,36 @@
+# Môi trường ảo & môi trường hệ thống
+venv/
+.env
+.env.local
+
+# File biên dịch của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File Prisma ORM
+prisma/migrations/
+prisma/.cache/
+prisma/.env
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Build / dist files
+dist/
+build/
+node_modules/
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+
+# File test
+tree.txt
